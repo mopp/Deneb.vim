@@ -1,6 +1,3 @@
-" Installation
-" NeoBundle 'gist:mopp/', { 'name': 'crazy.vim', 'script_type': 'plugin'}
-
 let s:buf_name = 'Deneb'
 let s:signature = '=====DELIMITER====='
 
