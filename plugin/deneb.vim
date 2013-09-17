@@ -1,7 +1,7 @@
 let s:buf_name = 'Deneb'
 let s:signature = '=====DELIMITER====='
 
-" Write opend files
+" Write opened files
 function! s:write_files()
     " echomsg 'call write'
     call cursor(1, 0)
@@ -43,7 +43,7 @@ function! s:open_files(...)
         " 初回のみ先頭の空行削除
         if flag == 0
             let flag = 1
-            normal ggdd
+            normal! ggdd
         endif
         normal! G
 
